@@ -79,10 +79,10 @@ export function SignUpForm({
                     <FormControl>
                       <div className="relative">
                         <Input
-                          id="username, eg: user_10_"
+                          id="username"
                           type="text"
                           autoComplete="off"
-                          placeholder="Username"
+                          placeholder="Username, eg: user_101_"
                           className={`max-sm:h-10 px-3 text-xs placeholder:text-xs transition-all duration-300 ${formState.errors.username ? "pr-9.5 pl-3 focus-visible:ring-ring/75" : null}`}
                           {...field}
                         />
