@@ -79,7 +79,7 @@ export function SignUpForm({
                     <FormControl>
                       <div className="relative">
                         <Input
-                          id="username"
+                          id="username, eg: user_10_"
                           type="text"
                           autoComplete="off"
                           placeholder="Username"
